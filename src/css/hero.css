@@ -1,11 +1,36 @@
+.condainer {
+    max-width: 375px;
+}
+
+@media only screen and (min-width: 768px) {
+    .condainer {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .condainer {
+        max-width: 1280px;
+    }
+}
+
 .hero {
     padding-top: 60px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-.condainer {
-    max-width: 375px;
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 0 auto;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
 }
 
 .hero-title {
@@ -24,29 +49,97 @@
 .hero-text {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.21;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 26px;
 }
 
 .scroll-down-div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 28px;
+    align-items: flex-end;
 }
-
-.employee-link {}
 
 .scroll-down-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.21;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
 }
 
-.hero-ground {}
+.hero-ground {
+    max-width: 335px;
+    max-height: 366px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hero-section {
+        gap: 40px;
+    }
+
+    .box-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 11px;
+    }
+
+    .slogan {
+        max-width: 557px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        line-height: 0.86;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        line-height: 1.25;
+        width: 480px;
+    }
+
+    .scroll-down-div {
+        flex-direction: column;
+    }
+
+    .scroll-down-link {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .hero-ground {
+        max-width: 704px;
+        max-height: 520px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+
+    .slogan {
+        max-width: 597px;
+    }
+
+    .hero-title {
+        font-size: 72px;
+    }
+
+    .hero-ground {
+        max-width: 1150px;
+        max-height: 500px;
+    }
+
+}

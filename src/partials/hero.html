@@ -1,15 +1,28 @@
 <section class="hero">
-    <div class="condainer">
-        <div class="slogan">
-            <h1 class="hero-title">Welcome to our <span class="hero-title-accent">collection</span> of premium watches
-            </h1>
-            <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
-                lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
+    <div class="condainer hero-section">
+        <div class="box-container">
+            <div class="slogan">
+                <h1 class="hero-title">Welcome to our <span class="hero-title-accent">collection</span> of premium
+                    watches
+                </h1>
+                <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
+                    lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.
+                </p>
+            </div>
+            <div class="scroll-down-div">
+                <img class="employee-link" src="./img/hero/employee.png" alt="employee icons" width="146" height="60">
+                <a class="scroll-down-link" href="#scroll-down">Scroll down</a>
+            </div>
         </div>
-        <div class="scroll-down-div">
-            <img class="employee-link" src="./img/hero/employee.png" alt="employee icons" width="146" height="60">
-            <a class="scroll-down-link" href="#scroll-down">Scroll down</a>
-        </div>
-        <img src="./img/hero/clock-bg-mob.jpg" alt="clock ground" class="hero-ground" width="335" height="366">
+        <picture>
+            <source srcset="../img/hero/clock-bg-desk.jpg 1x, ../img/hero/clock-bg-desk@2x.jpg 2x"
+                media="(min-width: 1280px)" />
+            <source srcset="../img/hero/clock-bg-tab.jpg 1x, ../img/hero/clock-bg-tab@2x.jpg 2x"
+                media="(min-width: 768px)" />
+            <source srcset="../img/hero/clock-bg-mob.jpg 1x, ../img/hero/clock-bg-mob@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+            <img src="../img/hero/clock-bg-mob.jpg" alt="clock ground" class="hero-ground">
+        </picture>
     </div>
 </section>
