@@ -1,0 +1,52 @@
+.hero {
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.condainer {
+    max-width: 375px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.hero-title-accent {
+    color: #3350e9;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 26px;
+}
+
+.scroll-down-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.employee-link {}
+
+.scroll-down-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+}
+
+.hero-ground {}
