@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="44" height="44"><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="4" y="4" width="36" height="36" rx="18" fill="#3350E9"></rect>
-    <rect x="2" y="2" width="40" height="40" rx="20" stroke="#3350E9" stroke-opacity="0.2" stroke-width="4"></rect>
-    <path d="M24.74 24.16L26.44 18H29.18L26 28H23.54L21.7 21.94L19.86 28H17.4L14.22 18H16.96L18.66 24.14L20.48 18H22.92L24.74 24.16Z" fill="#FBFBFB"></path>
-<   /svg>
-<style>@media (prefers-color-scheme: light) { :root { filter: none; } }</style>
-</svg>
+<rect x="4" y="4" width="36" height="36" rx="18" fill="#3350E9"></rect>
+<rect x="2" y="2" width="40" height="40" rx="20" stroke="#3350E9" stroke-opacity="0.2" stroke-width="4"></rect>
+<path d="M24.74 24.16L26.44 18H29.18L26 28H23.54L21.7 21.94L19.86 28H17.4L14.22 18H16.96L18.66 24.14L20.48 18H22.92L24.74 24.16Z" fill="#FBFBFB"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>
