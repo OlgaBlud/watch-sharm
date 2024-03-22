@@ -1,17 +1,14 @@
 .hero {
     padding-top: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .hero-section {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin: 0 auto;
 }
 
-.box-container {
+.hero-box-container {
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -22,7 +19,6 @@
     font-size: 40px;
     line-height: 0.95;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
     margin-bottom: 20px;
 }
 
@@ -51,12 +47,17 @@
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #0c0c0c;
+}
+
+.scroll-down-link:hover,
+.scroll-down-link:focus {
+    color: #3350e9;
 }
 
 .hero-ground {
     max-width: 335px;
-    max-height: 366px;
+    border-radius: 30px;
+    overflow: hidden;
     margin: 0 auto;
 }
 
@@ -71,7 +72,7 @@
         gap: 40px;
     }
 
-    .box-container {
+    .hero-box-container {
         flex-direction: row;
         justify-content: space-between;
         gap: 11px;
@@ -103,7 +104,7 @@
 
     .hero-ground {
         max-width: 704px;
-        max-height: 520px;
+        border-radius: 50px;
     }
 }
 
@@ -123,7 +124,5 @@
 
     .hero-ground {
         max-width: 1150px;
-        max-height: 500px;
     }
-
 }
