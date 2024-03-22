@@ -33,19 +33,18 @@
   margin-bottom: 10px;
 }
 
-.modal-price-catalog {
+.model-details {
   width: 279px;
   height: 44px;
 }
 
-.watch-modal-catalog {
+.watch-model-name {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
 }
-.price-watch-catalog {
+.watch-model-price {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
