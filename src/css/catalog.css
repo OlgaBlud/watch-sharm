@@ -1,0 +1,60 @@
+.catalog-item-none {
+  display: none;
+}
+
+.catalog-page-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.catalog-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background: #f3f3f3;
+  padding: 28px 24px 28px 24px;
+}
+
+.catalog-set {
+  width: 279px;
+  height: 262px;
+  padding: 18px 35px 18px 35px;
+  margin-bottom: 10px;
+}
+
+.modal-price-catalog {
+  width: 279px;
+  height: 44px;
+}
+
+.watch-modal-catalog {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+.price-watch-catalog {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-btn {
+  margin-left: 87px;
+  margin-right: 87px;
+}
