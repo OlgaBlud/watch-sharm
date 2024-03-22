@@ -1,0 +1,87 @@
+.advertisement {
+    border-radius: 30px;
+    max-width: 335px;
+    background-color: #0c0c0c;
+    padding-top: 60px;
+    padding-right: 28px;
+    padding-bottom: 28px;
+    padding-left: 28px;
+}
+
+.advertisement-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 28px;
+}
+
+.advertisement-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.advertisement-accent {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    background-color: transparent;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advertisement-btn:hover,
+.advertisement-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement {
+        max-width: 768px;
+        padding-top: 90px;
+        padding-right: 64px;
+        padding-bottom: 80px;
+        padding-left: 64x;
+    }
+
+    .advertisement-box {
+        gap: 32px;
+    }
+
+    .advertisement-title {
+        font-size: 48px;
+        line-height: 0.92;
+        width: 568px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .advertisement {
+        max-width: 1150px;
+        padding: 83px 80px;
+    }
+
+    .advertisement-box {
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .advertisement-title {
+        width: 690px;
+    }
+
+}
