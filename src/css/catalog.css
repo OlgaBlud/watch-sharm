@@ -12,18 +12,16 @@
 
 .catalog-list {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 40px;
 }
 
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
+  max-width: 335px;
   background: #f3f3f3;
   padding: 24px 28px 24px 28px;
 }
@@ -45,6 +43,7 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
+  margin-bottom: 8px;
 }
 .price-watch-catalog {
   font-weight: 400;
@@ -55,6 +54,7 @@
 }
 
 .catalog-btn {
-  margin-left: 87px;
-  margin-right: 87px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
