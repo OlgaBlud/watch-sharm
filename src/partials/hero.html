@@ -10,7 +10,16 @@
                 </p>
             </div>
             <div class="scroll-down-div">
-                <img class="employee-link" src="./img/hero/employee.png" alt="employee icons" width="146" height="60">
+                <picture>
+                    <source srcset="../img/hero/employee-desc.png 1x, ../img/hero/employee-desc@2x.png 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="../img/hero/employee-tab.png 1x, ../img/hero/employee-tab@2x.png 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="../img/hero/employee-mob.png 1x, ../img/hero/employee-mob@2x.png 2x"
+                        media="(max-width: 767px)" />
+
+                    <img class="employee-icon" src="./img/hero/employee.png" alt="employee icons" />
+                </picture>
                 <a class="scroll-down-link" href="#scroll-down">Scroll down</a>
             </div>
         </div>

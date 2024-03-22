@@ -55,11 +55,14 @@
     color: #3350e9;
 }
 
+.employee-icon {
+    max-width: 108px;
+}
+
 .hero-ground {
     max-width: 335px;
     border-radius: 30px;
     overflow: hidden;
-    margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -103,6 +106,10 @@
         line-height: 1;
     }
 
+    .employee-icon {
+        max-width: 136px;
+    }
+
     .hero-ground {
         max-width: 704px;
         border-radius: 50px;
@@ -121,6 +128,10 @@
 
     .hero-title {
         font-size: 72px;
+    }
+
+    .employee-icon {
+        max-width: 146px;
     }
 
     .hero-ground {
