@@ -14,7 +14,7 @@
     <title>Watch Sharm</title>
     
     <script type="module" crossorigin src="/watch-sharm/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watch-sharm/assets/index-27c287c9.css">
+    <link rel="stylesheet" href="/watch-sharm/assets/index-774aea3b.css">
   </head>
   <body>
     
@@ -353,12 +353,22 @@
           <button class="btn contact-btn" type="submit">Send</button>
         </form>
       </div>
-      <img
-        srcset="/watch-sharm/assets/img-c1b06d64.png 1x, /watch-sharm/assets/img2x-5bd4dc11.png 2x"
-        class="contact-img"
-        src="/watch-sharm/assets/img-c1b06d64.png"
-        alt="contact-watch"
-      />
+
+      <picture class="contact-img">
+        <source
+          media="(min-width: 1280px)"
+          srcset="/watch-sharm/assets/contact-desk-6113d55b.png 1x, /watch-sharm/assets/contact-desk@2x-f8b0b47f.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/watch-sharm/assets/contact-tablet-9395083c.png 1x, /watch-sharm/assets/contact-tablet@2x-05c5a343.png 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/watch-sharm/assets/contact-mob-c1b06d64.png 1x, /watch-sharm/assets/contact-mob@2x-5bd4dc11.png 2x"
+        />
+        <img src="/watch-sharm/assets/contact-mob-c1b06d64.png" alt="contact-watch" />
+      </picture>
     </div>
   </div>
 </section>
