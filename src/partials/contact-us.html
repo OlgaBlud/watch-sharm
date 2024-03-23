@@ -53,12 +53,31 @@
           <button class="btn contact-btn" type="submit">Send</button>
         </form>
       </div>
-      <img
-        srcset="./img/contact/img.png 1x, ./img/contact/img2x.png 2x"
-        class="contact-img"
-        src="./img/contact/img.png"
-        alt="contact-watch"
-      />
+
+      <picture class="contact-img">
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/contact/contact-desk.png    1x,
+            ./img/contact/contact-desk@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/contact/contact-tablet.png    1x,
+            ./img/contact/contact-tablet@2x.png 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/contact/contact-mob.png    1x,
+            ./img/contact/contact-mob@2x.png 2x
+          "
+        />
+        <img src="./img/contact/contact-mob.png" alt="contact-watch" />
+      </picture>
     </div>
   </div>
 </section>
