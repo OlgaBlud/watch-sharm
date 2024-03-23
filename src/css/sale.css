@@ -15,6 +15,8 @@
 .sale-wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  /* justify-content: baseline; */
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -47,65 +49,76 @@
   .sale-list {
     flex-direction: column;
     gap: 10px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;  зайве*/
   }
 }
 .sale-item {
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  width: 80px;
-  height: 80px;
+  /* width: 80px; замість фіксованої ширини додала flex-basis */
+  /* height: 80px; замість фіксованої висоти додала padding*/
+  flex-basis: calc((100% - 15px) / 4);
+  padding: 13px 14px;
+  /* ці властивості зайві
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 @media only screen and (min-width: 768px) {
   .sale-item {
+    flex-basis: calc((100% - 30px) / 4);
+    padding: 16px 18px;
     border-radius: 20px;
-    width: 132px;
-    height: 132px;
+    /* width: 132px;
+    height: 132px; */
   }
 }
 .sale-main-clock {
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px;
-  width: 335px;
-  height: 385px;
+  max-width: 335px;
+  /* width: 335px; додала max-width:335px */
+  /* height: 385px; */
 }
 @media only screen and (min-width: 768px) {
   .sale-main-clock {
     border-radius: 50px;
-    width: 552px;
-    height: 558px;
+    min-width: 552px;
+    /* width: 552px; */
+    /* height: 558px; */
   }
 }
 @media only screen and (min-width: 1280px) {
   .sale-main-clock {
-    width: 428px;
+    min-width: 428px;
   }
 }
 .sale-box {
-  background: #3350e9;
+  /* width: 335px; */
+  max-width: 335px;
   border-radius: 30px;
   padding: 48px 28px;
-  width: 335px;
+  background: #3350e9;
 }
 @media only screen and (min-width: 768px) {
   .sale-box {
+    /* width: 704px; */
+    min-width: 704px;
     padding: 60px;
     border-radius: 50px;
-    width: 704px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .sale-box {
-    width: 530px;
+    /* width: 530px; */
+    min-width: 530px;
   }
 }
 .sale-box-title {
@@ -121,12 +134,12 @@
   .sale-box-title {
     font-size: 32px;
     line-height: 1.12;
-    width: 436px;
+    max-width: 436px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .sale-box-title {
-    width: 389px;
+    max-width: 389px;
   }
 }
 .sale-tag {
@@ -140,12 +153,15 @@
 .sale-price {
   margin-bottom: 28px;
   display: flex;
+  align-items: center;
   gap: 9px;
 }
 .sale-discount {
+  /* просто padding
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  padding: 8px 12px;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -157,10 +173,10 @@
   background: rgba(251, 251, 251, 0.1);
 }
 .sale-price-last {
-  display: flex;
-  align-items: center;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -177,27 +193,37 @@
   margin-bottom: 28px;
 }
 @media only screen and (min-width: 768px) {
+  .sale-discount {
+    width: 78px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+  }
   .sale-description {
     font-size: 16px;
     line-height: 1.25;
+    margin-bottom: 40px;
   }
 }
-.sale-typeclock-list {
+.sale-type-clock-list {
   display: flex;
-  gap: 8px;
   flex-wrap: wrap;
+  gap: 8px;
+  max-width: 398px;
 }
-.sale-typeclock-item {
+.sale-type-clock-item {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
-
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
   padding: 8px 12px;
 }
+
 @media only screen and (min-width: 768px) {
-  .sale-typeclock-item {
+  .sale-type-clock-item {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
