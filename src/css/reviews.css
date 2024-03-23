@@ -58,6 +58,7 @@
   .review-title {
     font-size: 48px;
     margin-bottom: 40px;
+    line-height: 0.92;
   }
 
   .review-list {
