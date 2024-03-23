@@ -10,33 +10,74 @@
         <form class="contact-form" name="contact-form" autocomplete="on">
           <div class="contact-field-box">
             <label for="user-name"></label>
-            <input class="contact-field-input" type="text" id="user-name" name="username" placeholder="Name" required />
+            <input
+              class="contact-field-input"
+              type="text"
+              id="user-name"
+              name="username"
+              placeholder="Name"
+              required
+            />
           </div>
           <div class="contact-field-box">
             <label for="user-mail"></label>
-            <input class="contact-field-input" type="text" id="user-mail" name="user-mail" placeholder="Email"
-              required />
+            <input
+              class="contact-field-input"
+              type="text"
+              id="user-mail"
+              name="user-mail"
+              placeholder="Email"
+              required
+            />
           </div>
           <div class="contact-field-box">
             <label for="user-tel"></label>
-            <input class="contact-field-input" type="text" id="user-tel" name="user-tel" placeholder="+380" required />
+            <input
+              class="contact-field-input"
+              type="text"
+              id="user-tel"
+              name="user-tel"
+              placeholder="+380"
+              required
+            />
           </div>
           <div class="contact-field-comment">
             <label for="user-comment"></label>
-            <textarea class="contact-field-textarea" name="user-comment" id="user-comment"
-              placeholder="Comment"></textarea>
+            <textarea
+              class="contact-field-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
           </div>
           <button class="btn contact-btn" type="submit">Send</button>
         </form>
       </div>
 
       <picture class="contact-img">
-        <source media="(min-width: 1280px)" srcset="./img/contact/desk.png 1x, ./img/contact/desk2x.png 2x">
-        <source media="(min-width: 768px)" srcset="./img/contact/tablet.png 1x, ./img/contact/tablet2x.png 2x">
-        <source media="(max-width: 767px)" srcset="./img/contact/img.png 1x, ./img/contact/img2x.png 2x">
-        <img src="./img/contact/img.png" alt="contact-watch" />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/contact/contact-desk.png    1x,
+            ./img/contact/contact-desk@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/contact/contact-tablet.png    1x,
+            ./img/contact/contact-tablet@2x.png 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/contact/contact-mob.png    1x,
+            ./img/contact/contact-mob@2x.png 2x
+          "
+        />
+        <img src="./img/contact/contact-mob.png" alt="contact-watch" />
       </picture>
-
     </div>
   </div>
 </section>
