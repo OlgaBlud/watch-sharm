@@ -68,9 +68,6 @@
 @media only screen and (min-width: 768px) {
   .hero {
     padding-top: 80px;
-    /* тягнеться з base.css 
-     padding-right: 32px;
-    padding-left: 32px; */
   }
 
   .hero-section {
@@ -88,8 +85,6 @@
   }
 
   .hero-title {
-    /* Додаєм ширину, щоб заголовок мав стільки ж рядків скільки в макеті */
-    width: 557px;
     font-size: 70px;
     line-height: 0.86;
   }
@@ -120,20 +115,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  /*
-  тягнеться з base.css
-   .hero {
-    padding-right: 65px;
-    padding-left: 65px;
-  } */
-
   .slogan {
     max-width: 597px;
   }
 
   .hero-title {
-    /* Додаєм ширину, щоб заголовок мав стільки ж рядків скільки в макеті */
-    width: 597px;
     font-size: 72px;
   }
 
