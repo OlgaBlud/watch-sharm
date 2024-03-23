@@ -128,7 +128,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 10px;
-  min-width: 279px;
+  max-width: 279px;
 }
 @media only screen and (min-width: 768px) {
   .sale-box-title {
