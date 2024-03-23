@@ -36,6 +36,7 @@
     flex-direction: row;
     column-gap: 16px;
     row-gap: 32px;
+    margin-bottom: 0;
   }
 }
 
@@ -85,7 +86,7 @@
 }
 
 .watch-model-name {
-  max-width: 279px;
+  min-width: 279px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -106,6 +107,14 @@
   .watch-model-name {
     min-width: 304px;
   }
+}
+
+.hide-word {
+  overflow: hidden;
+}
+
+.solar {
+  text-overflow: ellipsis;
 }
 
 .watch-model-price {
@@ -130,12 +139,4 @@
   .catalog-btn {
     display: none;
   }
-}
-
-.hide-word {
-  overflow: hidden;
-}
-
-.solar {
-  text-overflow: ellipsis;
 }
