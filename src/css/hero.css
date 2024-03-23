@@ -60,6 +60,7 @@
 }
 
 .hero-ground {
+  max-width: 335px;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -67,8 +68,6 @@
 @media only screen and (min-width: 768px) {
   .hero {
     padding-top: 80px;
-    padding-right: 32px;
-    padding-left: 32px;
   }
 
   .hero-section {
@@ -91,9 +90,9 @@
   }
 
   .hero-text {
+    width: 480px;
     font-size: 16px;
     line-height: 1.25;
-    width: 480px;
   }
 
   .scroll-down-div {
@@ -116,11 +115,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero {
-    padding-right: 65px;
-    padding-left: 65px;
-  }
-
   .slogan {
     max-width: 597px;
   }
