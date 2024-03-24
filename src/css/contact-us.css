@@ -9,6 +9,7 @@
 .contact-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
@@ -88,4 +89,67 @@
 
 .contact-img {
   max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+  .contact-box {
+    gap: 40px;
+  }
+  .form-box {
+    max-width: 704px;
+    padding: 50px 122px;
+    border-radius: 50px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+
+  .contact-field-input {
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contact-field-comment {
+    margin-bottom: 32px;
+  }
+  .contact-field-textarea {
+    height: 90px;
+    padding: 16px 16px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contact-btn {
+    min-width: 160px;
+    height: 52px;
+  }
+  .contact-img {
+    max-width: 704px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .contact-box {
+    flex-direction: row;
+  }
+  .form-box {
+    max-width: 580px;
+    padding: 50px 60px;
+  }
+  .contact-field-input {
+    padding: 16px;
+  }
 }
