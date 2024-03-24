@@ -1,53 +1,57 @@
-<body>
-  <header class="header">
-    <div class="header-div-menu">
-      <a href="./header.html" class="logo">watchcharm</a>
+<header class="page-header">
+  <div class="container header-container">
+    <nav class="page-navigation">
+      <a class="logo" href="./index.html">watchcharm</a>
       <ul class="header-menu">
-        <li class="header-list">
-          <a href="./hero.html" class="header-link">Home</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link active" href="./index.html">Home</a>
         </li>
-        <li class="header-list">
-          <a href="./about-us.html" class="header-link">About Us</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about-us">About Us</a>
         </li>
-        <li class="header-list">
-          <a href="./catalog.html" class="header-link">Catalog</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#catalog">Catalog</a>
         </li>
-        <li class="header-list">
-          <a href="./sale.html" class="header-link">Sale</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#sale">Sale</a>
         </li>
-        <li class="header-list">
-          <a href="./reviews.html" class="header-link">Reviews</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#reviews">Reviews</a>
         </li>
-        <li class="header-list">
-          <a href="./contact-us.html" class="header-link">Contact Us</a>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#contact-us">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <button data-modal-open class="mobile-menu-open-btn" type="button">
+      <svg class="mobile-menu-open-btn-icon" width="28" height="14">
+        <use href="./img/icons.svg#icon-menu-btn"></use>
+      </svg>
+    </button>
+    <div class="header-social-block">
+      <ul class="header-social-menu">
+        <li class="header-social-item">
+          <a href="https://www.facebook.com/goITclub/" target="_blank">
+            <svg class="header-icon" width="20" height="20">
+              <use href="./img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a href="https://www.instagram.com/goitclub/" target="_blank">
+            <svg class="header-icon" width="20" height="20">
+              <use href="./img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a href="https://www.youtube.com/c/GoIT" target="_blank">
+            <svg class="header-icon" width="20" height="20">
+              <use href="./img/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </div>
-
-    <div class="header-div-icons">
-      <ul class="header-menu-icons">
-        <li class="header-list-icons">
-          <a href="" class="header-list-icons-link">
-            <svg class="heared-icons" width="36" height="36">
-              <use href="../img/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-list-icons">
-          <a href="" class="header-list-icons-link">
-            <svg class="heared-icons" width="36" height="36">
-              <use href="../img/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-list-icons">
-          <a href="" class="header-list-icons-link">
-            <svg class="heared-icons" width="36" height="36">
-              <use href="../img/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
-</body>
+  </div>
+</header>
