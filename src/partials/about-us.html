@@ -1,24 +1,45 @@
 <section class="about-us">
-    <div class="about-us-first-div">
-        <h2 class="about-us-title">About Us</h2>
-    <p class="about-us-p1">
-        Welcome to our premium watch collection, where luxury and style meet functionality and precision. 
-        Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring 
-        that you'll always have a reliable and stylish accessory on your wrist.
-    </p>
-    <p class="about-us-p2">
-        At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece 
-        that reflects your personality and style. So why settle for anything less than the best?
-    </p>
-    <a class="btn about-us-btn" href="#catalog">View catalog</a>
+  <div class="container about-us-section">
+    <div class="about-us-text-part">
+      <h2 class="about-us-title">About Us</h2>
+      <div class="about-us-text-wrap">
+        <p class="about-us-text about-us-text-margin">
+          Welcome to our premium watch collection, where luxury and style meet
+          functionality and precision. Our selection of timepieces embodies the
+          very best in Swiss craftsmanship and engineering, ensuring that you'll
+          always have a reliable and stylish accessory on your wrist.
+        </p>
+
+        <p class="about-us-text">
+          At our premium watch collection, we believe that a watch is more than
+          just a timekeeping device – it's a statement piece that reflects your
+          personality and style. So why settle for anything less than the best?
+        </p>
+      </div>
+
+      <a class="about-us-catalog-link" href="#catalog">View catalog</a>
     </div>
-    <div class="about-us-image">
-        <picture>
-            <source 
-            srcset="./img/about-us/rectangle.jpg 1x, ./img/about-us/rectangle-2x.jpg 2x" media="(min-width: 768px)">
-            <source 
-            srcset="./img/about-us/rectangle.jpg 1x, ./img/about-us/rectangle-2x.jpg 2x" media="(max-width: 767px)">
-            <img class="about-us-watches" src="./img/about-us/rectangle.jpg" alt="watches">
-        </picture>
-    </div>
+
+    <picture class="about-us-picture">
+      <source
+        srcset="
+          ./img/about-us/rectangle.jpg    1x,
+          ./img/about-us/rectangle-2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/about-us/rectangle.jpg    1x,
+          ./img/about-us/rectangle-2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="about-us-watches"
+        src="./img/about-us/rectangle.jpg"
+        alt="watches"
+      />
+    </picture>
+  </div>
 </section>
