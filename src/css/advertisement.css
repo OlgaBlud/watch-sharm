@@ -16,11 +16,9 @@
     @media only screen and (min-resolution: 192dpi) {
         .advertisement {
             background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-mob@2x.jpg");
-
         }
     }
 }
-
 
 .advertisement-box {
     display: flex;
@@ -117,7 +115,6 @@
     @media only screen and (min-resolution: 192dpi) {
         .advertisement {
             background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-desk@2x.jpg");
-
         }
     }
 
