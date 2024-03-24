@@ -123,4 +123,52 @@
     padding: 40px 40px 28px 40px;
     max-width: 704px;
   }
+  .footer-logo {
+    font-size: 20px;
+  }
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .address-link {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .social-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-navigation {
+    justify-content: space-between;
+    gap: 62px;
+  }
+  .footer-nav-list {
+    flex-direction: row;
+    min-width: 400px;
+    gap: 19px;
+  }
+  .footer-nav-link {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.14;
+    max-width: 524px;
+  }
+  .address-item {
+    font-size: 14px;
+    line-height: 1.28;
+    max-width: 162px;
+  }
+  .privacy-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 624px;
+  }
+  .privacy-list-item {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
