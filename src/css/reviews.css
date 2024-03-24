@@ -83,3 +83,21 @@
     max-width: 272px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .review-list {
+    gap: 20px;
+  }
+
+  .review-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .review-list-item:last-child {
+    display: inline;
+  }
+
+  .review-text {
+    max-width: 298px;
+  }
+}
