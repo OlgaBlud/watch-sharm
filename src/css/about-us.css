@@ -1,0 +1,53 @@
+.about-us {
+    max-width: 335px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us-first-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+
+.about-us-title {
+    margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.about-us-p1 {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 295px;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+}
+
+.about-us-p2 {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 295px;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 40px;
+}
+
+.about-us-btn {
+    display: inline-block;
+    text-decoration: none;
+    width: 160px;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+
+.about-us-watches {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
