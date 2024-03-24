@@ -114,3 +114,11 @@
   height: 1px;
   background-color: rgba(251, 251, 251, 0.5);
 }
+@media only screen and (min-width: 768px) {
+  .footer {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+  }
+}
