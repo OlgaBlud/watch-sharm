@@ -134,6 +134,8 @@
   }
   .contact-img {
     max-width: 704px;
+    overflow: hidden;
+    border-radius: 30px;
   }
 }
 
