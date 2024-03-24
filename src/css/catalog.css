@@ -15,7 +15,7 @@
 @media only screen and (min-width: 768px) {
   .catalog-page-title {
     font-size: 48px;
-    line-height: 0, 92;
+    line-height: 0.92;
     margin-bottom: 40px;
   }
 }
@@ -86,20 +86,23 @@
 }
 
 .watch-model-name {
-  min-width: 279px;
+  max-width: 280px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
-  white-space: nowrap;
 }
 
 @media only screen and (min-width: 768px) {
   .watch-model-name {
-    max-width: 280px;
     font-size: 20px;
     line-height: 1;
+    white-space: nowrap;
+  }
+  .hide-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -107,14 +110,6 @@
   .watch-model-name {
     min-width: 304px;
   }
-}
-
-.hide-word {
-  overflow: hidden;
-}
-
-.solar {
-  text-overflow: ellipsis;
 }
 
 .watch-model-price {
