@@ -53,3 +53,27 @@
 .about-us-picture {
   max-width: 335px;
 }
+
+@media only screen and (min-width:768px) {
+    .about-us-text-part {
+        max-width: 768px;
+        padding: 80px 60px;
+      }
+
+    .about-us-picture {
+        max-width: 768px;
+      } 
+
+      .about-us-title {
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+      }
+      
+      .about-us-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+      }
+}
