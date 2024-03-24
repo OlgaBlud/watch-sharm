@@ -40,6 +40,32 @@
   align-items: flex-end;
 }
 
+/* ==================employee=============================== */
+.employee {
+  display: flex;
+}
+
+.employee-pos {
+  border: 2px solid #fbfbfb;
+  border-radius: 50%;
+  width: 44px;
+}
+
+.relativ-1 {
+  position: relative;
+  left: -24px;
+}
+
+.relativ-2 {
+  position: relative;
+  left: -12px;
+}
+
+.relativ-3 {
+  position: relative;
+}
+
+/* ==================/employee=============================== */
 .scroll-down-link {
   font-weight: 500;
   font-size: 14px;
@@ -53,10 +79,6 @@
 .scroll-down-link:hover,
 .scroll-down-link:focus {
   color: #3350e9;
-}
-
-.employee-icon {
-  max-width: 108px;
 }
 
 .hero-ground {
@@ -99,13 +121,26 @@
     flex-direction: column;
   }
 
+  .employee-pos {
+    width: 56px;
+  }
+
+  .relativ-1 {
+    left: 0;
+    z-index: 999;
+  }
+
+  .relativ-2 {
+    left: 17px;
+  }
+
+  .relativ-3 {
+    left: 34px;
+  }
+
   .scroll-down-link {
     font-size: 20px;
     line-height: 1;
-  }
-
-  .employee-icon {
-    max-width: 136px;
   }
 
   .hero-ground {
@@ -123,8 +158,16 @@
     font-size: 72px;
   }
 
-  .employee-icon {
-    max-width: 146px;
+  .employee-pos {
+    width: 60px;
+  }
+
+  .relativ-2 {
+    left: 18px;
+  }
+
+  .relativ-3 {
+    left: 36px;
   }
 
   .hero-ground {
