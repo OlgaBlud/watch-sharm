@@ -1,0 +1,133 @@
+@media only screen and (max-width: 767px) {
+  .catalog-item-none {
+    display: none;
+  }
+}
+
+.catalog-page-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-page-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+}
+
+.catalog-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-list {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 16px;
+    row-gap: 32px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-list {
+    column-gap: 23px;
+  }
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  background: #f3f3f3;
+  padding: 24px 28px 24px 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-item {
+    max-width: 344px;
+    padding: 24px 32px 24px 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-item {
+    max-width: 368px;
+  }
+}
+.catalog-set {
+  max-width: 279px;
+  padding: 18px 35px 18px 35px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-set {
+    max-width: 280px;
+    padding: 10px 6px 10px 6px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-set {
+    max-width: 304px;
+  }
+}
+
+.watch-model-name {
+  max-width: 280px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .watch-model-name {
+    font-size: 20px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .hide-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .watch-model-name {
+    min-width: 304px;
+  }
+}
+
+.watch-model-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-btn {
+    display: none;
+  }
+}
