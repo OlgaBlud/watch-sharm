@@ -174,15 +174,16 @@
     margin-bottom: 28px;
   }
   .privacy-list {
-<<<<<<< Updated upstream
-    display: block;
-=======
-    justify-content: space-between;
->>>>>>> Stashed changes
     max-width: 624px;
+    justify-content: space-between;
   }
   .privacy-list-item {
     font-size: 14px;
     line-height: 1.28;
+  }
+  .privacy-list-item-end {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }
