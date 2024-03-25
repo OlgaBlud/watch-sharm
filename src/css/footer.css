@@ -123,6 +123,17 @@
     padding: 40px 40px 28px 40px;
     max-width: 704px;
   }
+  .social-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .logo-social-link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
   .footer-logo {
     font-size: 20px;
   }
@@ -134,14 +145,10 @@
     font-size: 14px;
     line-height: 1.28;
   }
-  .social-container {
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   .footer-navigation {
     justify-content: space-between;
     gap: 62px;
+    margin-bottom: 28px;
   }
   .footer-nav-list {
     flex-direction: row;
@@ -156,14 +163,17 @@
     font-size: 28px;
     line-height: 1.14;
     max-width: 524px;
+    margin: 86px 50px 100px 50px;
   }
   .address-item {
     font-size: 14px;
     line-height: 1.28;
     max-width: 162px;
   }
+  .footer-line {
+    margin-bottom: 28px;
+  }
   .privacy-list {
-    flex-wrap: nowrap;
     justify-content: space-between;
     max-width: 624px;
   }
