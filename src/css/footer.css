@@ -174,7 +174,11 @@
     margin-bottom: 28px;
   }
   .privacy-list {
+<<<<<<< Updated upstream
     display: block;
+=======
+    justify-content: space-between;
+>>>>>>> Stashed changes
     max-width: 624px;
   }
   .privacy-list-item {
