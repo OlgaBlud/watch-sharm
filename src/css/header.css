@@ -5,6 +5,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  background-color: #ffffff;
 }
 .header-container {
   display: flex;
