@@ -1,121 +1,67 @@
-.advertisement {
-    border-radius: 30px;
-    max-width: 335px;
-    background-size: cover;
-    padding-top: 60px;
-    padding-right: 28px;
-    padding-bottom: 28px;
-    padding-left: 28px;
+.advertisement-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 28px;
+  border-radius: 30px;
+  max-width: 335px;
+  padding: 60px 28px;
+  background-color: #0c0c0c;
+  margin: 0 auto;
 }
-
-@media only screen and (max-width: 767px) {
-    .advertisement {
-        background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-mob.jpg");
-    }
-
-    @media only screen and (min-resolution: 192dpi) {
-        .advertisement {
-            background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-mob@2x.jpg");
-        }
-    }
-}
-
-.advertisement-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 28px;
-}
-
 .advertisement-text {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
 }
-
 .advertisement-accent {
-    color: rgba(251, 251, 251, 0.5);
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .advertisement-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    background-color: inherit;
-    color: #fbfbfb;
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advertisement-link:hover,
 .advertisement-link:focus {
-    background-color: #fbfbfb;
-    color: #0c0c0c;
+  background-color: #fbfbfb;
+  color: #0c0c0c;
 }
 
 @media only screen and (min-width: 768px) {
-    .advertisement {
-        max-width: 768px;
-        padding-top: 90px;
-        padding-right: 64px;
-        padding-bottom: 80px;
-        padding-left: 64x;
-    }
-
-    .advertisement {
-        background-image: linear-gradient(#0c0c0c, #0c0c0c), url("./img/adver/adver-bg-tab.jpg");
-    }
-
-    @media only screen and (min-resolution: 192dpi) {
-        .advertisement {
-            background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-tab@2x.jpg");
-
-        }
-    }
-
-    .advertisement-box {
-        gap: 32px;
-    }
-
-    .advertisement-text {
-        font-size: 48px;
-        line-height: 0.92;
-        width: 576px;
-    }
+  .advertisement-wrap {
+    max-width: 704px;
+    padding: 80px 64px;
+    gap: 32px;
+  }
+  .advertisement-text {
+    font-size: 48px;
+    line-height: 0.92;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .advertisement {
-        max-width: 1150px;
-        padding: 83px 80px;
-    }
-
-    .advertisement-box {
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: flex-start;
-    }
-
-    .advertisement-text {
-        width: 690px;
-    }
-
-    .advertisement {
-        background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-desk.jpg");
-    }
-
-    @media only screen and (min-resolution: 192dpi) {
-        .advertisement {
-            background-image: linear-gradient(#0c0c0c, #0c0c0c), url("../img/adver/adver-bg-desk@2x.jpg");
-        }
-    }
-
+  .advertisement-wrap {
+    max-width: 1150px;
+    padding: 83px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .advertisement-text {
+    max-width: 690px;
+  }
 }
