@@ -10,16 +10,18 @@
         <form class="contact-form" name="contact-form" autocomplete="on">
           <div class="contact-field-box">
             <label for="user-name"></label>
-            <input class="contact-field-input" type="text" id="user-name" name="username" placeholder="Name" required />
+            <input class="contact-field-input" type="text" id="user-name" name="username-firstname" placeholder="Name"
+              required pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]{2,20}{2,50}" />
           </div>
           <div class="contact-field-box">
             <label for="user-mail"></label>
-            <input class="contact-field-input" type="text" id="user-mail" name="user-mail" placeholder="Email"
-              required />
+            <input class="contact-field-input" type="email" id="user-mail" name="user-mail" placeholder="Email" required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
           </div>
           <div class="contact-field-box">
             <label for="user-tel"></label>
-            <input class="contact-field-input" type="text" id="user-tel" name="user-tel" placeholder="+380" required />
+            <input class="contact-field-input" type="tel" id="user-tel" name="user-tel" placeholder="+380" required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
           </div>
           <div class="contact-field-comment">
             <label for="user-comment"></label>
