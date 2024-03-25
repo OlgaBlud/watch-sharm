@@ -202,3 +202,40 @@
     padding-right: 159px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .footer-container {
+    padding: 0px 32px 32px 32px;
+  }
+  .footer {
+    min-width: 1216px;
+  }
+  .social-container {
+    position: absolute;
+    gap: 662px;
+    margin: 0;
+  }
+  .footer-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+  .footer-navigation {
+    margin-top: 126px;
+  }
+  .footer-link {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-link:hover,
+  .footer-link:focus {
+    fill: #fbfbfb;
+    opacity: 1;
+  }
+  .privacy-list {
+    max-width: 1136px;
+  }
+  .privacy-list-item:first-child {
+    padding-right: 671px;
+  }
+}
