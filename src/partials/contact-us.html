@@ -10,41 +10,78 @@
         <form class="contact-form" name="contact-form" autocomplete="on">
           <div class="contact-field-box">
             <label for="user-name"></label>
-            <input class="contact-field-input" type="text" id="user-name" name="username-firstname" placeholder="Name"
-              title="Dmytro" required pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ']+" />
+            <input
+              class="contact-field-input"
+              type="text"
+              id="user-name"
+              name="username"
+              placeholder="Name"
+              pattern="[A-Za-zА-Яа-яІіЇїЄєҐґʼ]+"
+              title="Enter your name"
+              required
+            />
           </div>
           <div class="contact-field-box">
             <label for="user-mail"></label>
-            <input class="contact-field-input" type="email" id="user-mail" name="user-mail" placeholder="Email" required
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+            <input
+              class="contact-field-input"
+              type="email"
+              id="user-mail"
+              name="user-mail"
+              placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="Enter your e-mail"
+              required
+            />
           </div>
           <div class="contact-field-box">
             <label for="user-tel"></label>
-            <input class="contact-field-input" type="tel" id="user-tel" name="user-tel" placeholder="+380" required
-              pattern="[0-9]{10}+" />
+            <input
+              class="contact-field-input"
+              type="tel"
+              id="user-tel"
+              name="user-phone"
+              placeholder="+38"
+              pattern="[0-9]{10}"
+              title="+38-099-999-99-99"
+              required
+            />
           </div>
           <div class="contact-field-comment">
             <label for="user-comment"></label>
-            <textarea class="contact-field-textarea" name="user-comment" id="user-comment"
-              placeholder="Comment"></textarea>
+            <textarea
+              class="contact-field-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
           </div>
           <button class="btn contact-btn" type="submit">Send</button>
         </form>
       </div>
 
       <picture class="contact-img">
-        <source media="(min-width: 1280px)" srcset="
+        <source
+          media="(min-width: 1280px)"
+          srcset="
             ./img/contact/contact-desk.png    1x,
             ./img/contact/contact-desk@2x.png 2x
-          " />
-        <source media="(min-width: 768px)" srcset="
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
             ./img/contact/contact-tablet.png    1x,
             ./img/contact/contact-tablet@2x.png 2x
-          " />
-        <source media="(max-width: 767px)" srcset="
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
             ./img/contact/contact-mob.png    1x,
             ./img/contact/contact-mob@2x.png 2x
-          " />
+          "
+        />
         <img src="./img/contact/contact-mob.png" alt="contact-watch" />
       </picture>
     </div>
