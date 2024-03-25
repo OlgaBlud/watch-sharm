@@ -1,7 +1,11 @@
 body {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', sans-serif;
   background-color: #ffffff;
   color: #0c0c0c;
+}
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -14,6 +18,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .container {
     max-width: 768px;
     padding-left: 32px;
@@ -21,6 +29,10 @@ body {
   }
 }
 @media only screen and (min-width: 1280px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .container {
     max-width: 1280px;
     padding-left: 65px;
@@ -38,6 +50,11 @@ body {
   line-height: 1.29;
   color: #fbfbfb;
   outline: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover,
+.btn:focus {
+  background-color: #1f3cd4;
 }
 
 .visually-hidden {
