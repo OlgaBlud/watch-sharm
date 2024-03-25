@@ -520,7 +520,7 @@
   </div>
 </section>
 
-      <section class="contact-us-section">
+      <section class="contact-us-section" id="#contact-us">
   <div class="container">
     <h2 class="contact-title">Contact Us</h2>
     <div class="contact-box">
@@ -538,6 +538,8 @@
               id="user-name"
               name="username"
               placeholder="Name"
+              pattern="[A-Za-zА-Яа-яІіЇїЄєҐґʼ]+"
+              title="Enter your name"
               required
             />
           </div>
@@ -545,10 +547,12 @@
             <label for="user-mail"></label>
             <input
               class="contact-field-input"
-              type="text"
+              type="email"
               id="user-mail"
               name="user-mail"
               placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="Enter your e-mail"
               required
             />
           </div>
@@ -556,10 +560,12 @@
             <label for="user-tel"></label>
             <input
               class="contact-field-input"
-              type="text"
+              type="tel"
               id="user-tel"
-              name="user-tel"
-              placeholder="+380"
+              name="user-phone"
+              placeholder="+38"
+              pattern="[0-9]{10}"
+              title="+38-099-999-99-99"
               required
             />
           </div>
