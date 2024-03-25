@@ -174,7 +174,7 @@
     margin-bottom: 28px;
   }
   .privacy-list {
-    justify-content: space-between;
+    display: block;
     max-width: 624px;
   }
   .privacy-list-item {
