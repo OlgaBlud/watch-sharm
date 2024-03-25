@@ -28,30 +28,34 @@
   display: flex;
   gap: 10px;
 }
-.footer-social-link-item {
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  border-radius: 10px;
-}
+
 .footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 34px;
   height: 34px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
   opacity: 0.8;
   fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address {
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 16px;
-  width: 152px;
-  height: 44px;
+.footer-link:hover,
+.footer-link:focus {
+  fill: #fbfbfb;
+  opacity: 1;
 }
+
 .address-link {
   display: block;
   padding-top: 14px;
   padding-bottom: 14px;
+  width: 152px;
+  height: 44px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
   font-weight: 500;
   font-size: 12px;
   font-style: normal;
@@ -59,8 +63,15 @@
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address-link:hover,
+.address-link:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
 .footer-text {
   font-weight: 600;
   font-size: 20px;
@@ -148,11 +159,9 @@
     height: 20px;
   }
 
-  .address {
+  .address-link {
     width: 160px;
     height: 48px;
-  }
-  .address-link {
     padding-top: 16px;
     padding-bottom: 16px;
     font-size: 14px;
@@ -204,37 +213,30 @@
 }
 @media only screen and (min-width: 1280px) {
   .footer-container {
-    padding: 0px 32px 32px 32px;
+    padding: 40px 40px 28px 40px;
   }
   .footer {
-    min-width: 1216px;
+    position: relative;
+    max-width: 1216px;
   }
   .social-container {
-    position: absolute;
-    gap: 662px;
-    margin: 0;
+    margin-bottom: 142px;
   }
   .footer-text {
-    position: relative;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    margin: 0 auto;
+    position: absolute;
+    margin: 0;
+    top: 40px;
+    left: 346px;
   }
-  .footer-navigation {
-    margin-top: 126px;
-  }
-  .footer-link {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-link:hover,
-  .footer-link:focus {
-    fill: #fbfbfb;
-    opacity: 1;
+
+  .footer-nav-list {
+    gap: 40px;
+    max-width: 505px;
   }
   .privacy-list {
     max-width: 1136px;
   }
+
   .privacy-list-item:first-child {
     padding-right: 671px;
   }
