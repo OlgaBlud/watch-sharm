@@ -86,6 +86,7 @@
   }
 }
 .sale-box {
+  max-width: 335px;
   border-radius: 30px;
   padding: 48px 28px;
   background: #3350e9;
