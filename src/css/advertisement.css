@@ -1,8 +1,14 @@
+.advertisement {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .advertisement-wrap {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 28px;
+  max-width: 335px;
   border-radius: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -82,12 +88,11 @@
   color: #0c0c0c;
 }
 
-@media only screen and (max-width: 374px) {
-  .advertisement-wrap {
-    margin: 0 20px;
-  }
-}
 @media only screen and (min-width: 768px) {
+  .advertisement {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .advertisement-wrap {
     max-width: 704px;
     padding-top: 80px;
@@ -102,6 +107,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .advertisement {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
   .advertisement-wrap {
     max-width: 1150px;
     padding-top: 83px;
