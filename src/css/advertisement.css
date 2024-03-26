@@ -1,10 +1,9 @@
-.advertisement-wrap {
+.advertisement {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 28px;
   border-radius: 30px;
-  max-width: 335px;
   padding: 60px 28px;
   background-color: #0c0c0c;
   margin: 0 auto;
@@ -16,34 +15,34 @@
   background-size: cover;
 }
 @media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
-  .advertisement-wrap {
+  .advertisement {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../img/advertisement/adverisement-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisement-wrap {
+  .advertisement {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../img/advertisement/adverisement-tablet@1x.png);
   }
 }
 
 @media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
-  .advertisement-wrap {
+  .advertisement {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../img/advertisement/adverisement-tablet@2x.png);
   }
 }
 @media only screen and (min-width: 1280px) {
-  .advertisement-wrap {
+  .advertisement {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../img/advertisement/adverisement-desktop@1x.png);
   }
 }
 
 @media only screen and (min-resolution: 192dpi) and (min-width: 1280px) {
-  .advertisement-wrap {
+  .advertisement {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../img/advertisement/adverisement-desktop@2x.png);
   }
@@ -82,8 +81,13 @@
   color: #0c0c0c;
 }
 
+@media only screen and (max-width: 374px) {
+  .advertisement {
+    margin: 0 20px;
+  }
+}
 @media only screen and (min-width: 768px) {
-  .advertisement-wrap {
+  .advertisement {
     max-width: 704px;
     padding: 80px 64px;
     gap: 32px;
@@ -95,7 +99,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisement-wrap {
+  .advertisement {
     max-width: 1150px;
     padding: 83px 80px;
     flex-direction: row;

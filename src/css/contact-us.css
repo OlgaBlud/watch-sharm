@@ -14,7 +14,6 @@
 }
 
 .form-box {
-  max-width: 335px;
   padding: 48px 28px;
   border-radius: 30px;
   background-color: #f3f3f3;
@@ -85,10 +84,6 @@
 .contact-btn {
   min-width: 134px;
   height: 42px;
-}
-
-.contact-img {
-  max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {

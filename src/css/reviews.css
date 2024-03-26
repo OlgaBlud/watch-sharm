@@ -20,10 +20,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .review-list-item {
-    max-width: 335px;
-  }
-
   .review-list-item:not(:first-child) {
     display: none;
   }

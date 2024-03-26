@@ -6,7 +6,6 @@
 }
 .about-us-text-part {
   border-radius: 30px;
-  max-width: 335px;
   padding: 40px 20px;
   background: #f3f3f3;
 }
@@ -36,10 +35,6 @@
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
-}
-
-.about-us-picture {
-  max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
