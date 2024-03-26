@@ -3,6 +3,10 @@ body {
   background-color: #ffffff;
   color: #0c0c0c;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block: 100px;
+}
 section {
   padding-top: 30px;
   padding-bottom: 30px;
