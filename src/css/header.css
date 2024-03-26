@@ -66,9 +66,19 @@
     display: flex;
     gap: 40px;
   }
-  .active {
+
+  .header-menu-link {
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #0c0c0c;
   }
+  .header-menu-link:hover::after,
+  .header-menu-link:focus::after,
   .active::after {
     display: block;
     content: '';
@@ -80,15 +90,6 @@
     bottom: -2px;
     left: 50%;
     transform: translateX(-50%);
-  }
-  .header-menu-link {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    color: #0c0c0c;
   }
   .mobile-menu-open-btn {
     display: none;
