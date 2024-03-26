@@ -29,7 +29,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url(/src/img/menu/mobile-menu-bg.jpg);
+    url(../img/menu/mob-menu-bg@1x-min.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -44,7 +44,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/src/img/menu/mobile-menu-bg@2x.jpg);
+      url(../img/menu/mob-menu-bg@2x-min.png);
   }
 }
 
@@ -145,7 +145,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/src/img/menu/tablet-menu-bg.jpg);
+      url(../img/menu/tab-menu-bg@1x-min.png);
   }
 
   .menu-container {
@@ -185,7 +185,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/src/img/menu/tablet-menu-bg@2x.jpg);
+      url(../img/menu/tab-menu-bg@2x-min.png);
   }
 }
 

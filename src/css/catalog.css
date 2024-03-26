@@ -1,5 +1,6 @@
 @media only screen and (max-width: 767px) {
-  .catalog-item-none {
+  .catalog-item:nth-child(5),
+  .catalog-item:nth-child(6) {
     display: none;
   }
 }
