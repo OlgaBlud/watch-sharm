@@ -6,7 +6,7 @@
   margin-bottom: 24px;
 }
 
-.review-list {
+/* .review-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,84 @@
   .review-list-item:not(:first-child) {
     display: none;
   }
+} */
+
+/* ===== Slider ======= */
+
+.position {
+  position: relative;
+  height: 210px;
+}
+
+.review-slider {
+  overflow: hidden;
+  width: 320px;
+  height: 318px;
+}
+
+.middle {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.navigation {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 30px;
+  height: 8px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #000;
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.bar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+input[name='r'] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  position: relative;
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  transition: all 0.6s ease;
+}
+
+.review-wrapper {
+  width: 320px;
+  height: 100%;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -50%;
 }
 
 .review-img {
