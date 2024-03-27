@@ -20,8 +20,16 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .review-list-item:not(:first-child) {
-    display: none;
+  .slider-wrap {
+    overflow-y: auto;
+    max-height: 287px;
+  }
+  .review-list {
+    flex-direction: column;
+    gap: 21px;
+  }
+  .review-list-item {
+    padding: 34px 36px;
   }
 }
 
